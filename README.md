@@ -1,38 +1,16 @@
-# Flask starter template
-Very basic Flask starter project template including:
+## API Project: Request Header Parser API
 
-* Flask (obvious)
-* Flask-SQLAlchemy
-* A couple of routes
-* Bulma CSS
+Porting FreeCodeCamp APIs and Microservices Certification Challenges from JS to Python
 
-### Structure
-```bash
-.
-├── LICENSE
-├── README.md
-├── app
-│   ├── __init__.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   └── main.py
-│   ├── routes
-│   │   ├── __init__.py
-│   │   └── main.py
-│   ├── static
-│   │   ├── css
-│   │   │   └── mods.css
-│   │   └── js
-│   │       └── magic.js
-│   ├── templates
-│   │   └── index.html
-│   └── utils
-│       ├── __init__.py
-│       └── main.py
-├── config.py
-├── requirements.txt
-└── run.py
+### User stories:
+1. I can get the IP address, preferred languages (from header `Accept-Language`) and system infos (from header `User-Agent`) for my device.
 
-```
+#### Example usage:
+* [base_url]/api/whoami
 
-![Image of / placeholder route](https://i.imgur.com/ZpnKXPh.png)
+#### Example output:
+* `{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5","software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}`
+
+You can check my original Challenges [here](https://omik-fcc.github.io).
+
+![screenshot](blob:https://imgur.com/886c149a-385d-46c4-bbc2-de39c7b5033a)
