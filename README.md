@@ -13,4 +13,4 @@ Porting FreeCodeCamp APIs and Microservices Certification Challenges from JS to 
 
 You can check my original Challenges [here](https://omik-fcc.github.io).
 
-![screenshot](blob:https://imgur.com/886c149a-385d-46c4-bbc2-de39c7b5033a)
+![screenshot](https://i.imgur.com/15SskgV.png)
